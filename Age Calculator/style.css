@@ -1,0 +1,55 @@
+body {
+    Font-family: Arial, sans-serif;
+    background: url('img2.jpg')no-repeat center center/cover;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Height: 100vh;
+    Margin: 0;
+}
+
+.container {
+    Background: rgb(0, 0, 0, 0.5);
+    Padding: 20px;
+    Border-radius: 10px;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    Text-align: center;
+}
+
+h1 {
+    Color: #f1eded;
+}
+
+label {
+    Font-size: 18px;
+    Font-weight: bold;
+    color: #f1eded;
+}
+
+input {
+    Padding: 8px;
+    Margin: 10px 0;
+    Border: 2px solid #0a0102;
+    Border-radius: 5px;
+}
+
+button {
+    Background: #bfcdbf;
+    Color: rgb(13, 8, 8);
+    Border: none;
+    Padding: 10px 15px;
+    Font-size: 16px;
+    Cursor: pointer;
+    Border-radius: 5px;
+    Transition: 0.3s;
+}
+
+button:hover {
+    Background: #6ce26cfe;
+}
+
+p {
+    Font-size: 20px;
+    Font-weight: bold;
+    Color: #96dd54;
+}
